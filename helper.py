@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 from nltk.corpus import stopwords
 import nltk
-nltk.download('stopwords') 
+
 vectorizer = pickle.load(open('vectorizer.pkl','rb'))
 
 def test_common_words(q1,q2):
